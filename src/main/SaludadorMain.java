@@ -1,10 +1,13 @@
 package main;
 
+import clases.Saludador;
+
 public class SaludadorMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Saludador ventana = new Saludador();
+		ventana.setSize(600,500);
+		ventana.setVisible(true);
 	}
 
 }
